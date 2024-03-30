@@ -473,6 +473,9 @@ int main ( void )
 
             while ((isRTCExpired == false) ||
                    (isUSARTTxComplete == false));
+            // STUDENTS:
+            // UNCOMMENT THE NEXT LINE IF YOU WANT YOUR CODE TO STOP AFTER THE LAST TEST CASE!
+            exit(0);
 
             // slow down the blink rate after the tests have been executed
             if (firstTime == true)
